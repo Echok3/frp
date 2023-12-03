@@ -48,7 +48,7 @@
 
 ## 改进：
 
-由于每次启动都会占用终端，将 `frp` 客户端 (`frpc`) 设置为服务，使其能够像使用 `service frp-client start` 这样的命令启动，可以通过创建一个系统服务来实现。下面的步骤适用于使用 systemd 的系统（例如最新版本的 Ubuntu、Debian、CentOS 等）。
+由于每次启动都会占用终端，将 `frps` 和 `frpc` 客户端和服务端设置为服务，使其能够像使用 `service frps start` 和 `service frpc start` 这样的命令启动，可以通过创建一个系统服务来实现。下面的步骤适用于使用 systemd 的系统（例如最新版本的 Ubuntu、Debian、CentOS 等）。
 
 ### 服务端：创建 frps 服务文件
 
